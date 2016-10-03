@@ -210,3 +210,19 @@ RF_adv_params = {'bootstrap': True,
       'verbose': 0,
       'warm_start': False}
 
+
+RF_cons_params = {'bootstrap': True,
+     'class_weight': None,
+     'criterion': 'entropy',
+     'max_depth': 20,
+     'max_features': 100,
+     'max_leaf_nodes': None,
+     'min_samples_leaf': 30,
+     'min_samples_split': 23.005,
+     'min_weight_fraction_leaf': 0.0,
+     'n_estimators': 150,
+     'n_jobs': -1,
+     'oob_score': True,
+     'random_state': 10,
+     'verbose': 0,
+     'warm_start': False}
